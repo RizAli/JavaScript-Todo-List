@@ -1,6 +1,9 @@
 // Problem: user interaction doesn't provide desired result.
 // Solution: Add interactivity so the user can manage daily tasks.
-
+var taskInput = document.getElementById("new-task"); //new-task
+var addButton = document.getElementsByTagName("button")[0]; // first button add
+var incompleteTasksHolder = document.getElementById("incomplete-tasks") // incomplete-tasks
+var completedTasksHolder; document.getElementById("completed-tasks") // completed-tasks.
 // Add a new tasks
 var addTask = function() {
   //when the button is pressed
@@ -40,8 +43,9 @@ var taskCompleted = function() {
     // Append the task list item to the #completed-tasks
 }
 
-var taskIncomplete = function() {
+
 // Mark a task as Incomplete
+var taskIncomplete = function() {
   // when the checkbox is checked
   // Append the task list item to the #incompleted-tasks
 }
