@@ -44,9 +44,6 @@ var taskIncomplete = function() {
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 
-
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection
-getting elements - first button
 Events will be linked to the following elements
 ```
 var taskInput = document.getElementById("new-task"); //new-task
@@ -55,7 +52,13 @@ var incompleteTasksHolder = document.getElementById("incomplete-tasks") // incom
 var completedTasksHolder; document.getElementById("completed-tasks") // completed-tasks.
 
 ```
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection
+getting elements - first button
 
+
+onclick
+
+https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 
 
 
