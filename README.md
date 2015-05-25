@@ -61,5 +61,13 @@ onclick
 https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 
 
+3.  Traversing and Manipulating the DOM with JavaScripts.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
+
+
+
+
+
 
 
